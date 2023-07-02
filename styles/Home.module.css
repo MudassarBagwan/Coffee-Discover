@@ -59,7 +59,7 @@
 .heroImage {
   position: absolute;
   top: 0px;
-  z-index: 0;
+  z-index: -1;
 }
 
 @media (min-width: 768px) {
@@ -117,7 +117,7 @@
   padding-bottom: 2rem;
   margin-top: 2rem;
   color: var(--text-white-100);
-  z-index: 2;
+  z-index: 1;
  
 }
 
